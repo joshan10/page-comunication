@@ -337,6 +337,88 @@ body {
   line-height: 1.7;
 }
 
+/* ========== BIOGRAFÍA JAKOBSON ========== */
+.bio-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 40px 44px;
+  box-shadow: 0 4px 24px var(--shadow);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--accent);
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.bio-avatar {
+  width: 88px;
+  height: 88px;
+  background: linear-gradient(135deg, var(--accent-light), var(--accent));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: white;
+}
+
+.bio-content h3 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.bio-dates {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.bio-content > p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.bio-facts {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 24px;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.bio-facts li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.bio-facts li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.bio-facts strong {
+  color: var(--accent-dark);
+}
+
 /* ========== JAKOBSON GRID ========== */
 .jakobson-grid {
   display: grid;
@@ -509,6 +591,141 @@ body {
   font-weight: 700;
   font-size: 0.85rem;
   flex-shrink: 0;
+}
+
+/* ========== TRADICIONAL VS ASERTIVA ========== */
+.block-title {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.vs-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.vs-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px var(--shadow);
+  border-top: 4px solid transparent;
+}
+
+.vs-card.vs-traditional { border-top-color: var(--aggressive); }
+.vs-card.vs-assertive { border-top-color: var(--assertive); }
+
+.vs-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.vs-icon {
+  font-size: 1.8rem;
+}
+
+.vs-header h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.vs-card > p {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.vs-list {
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+.vs-list li {
+  position: relative;
+  padding: 8px 0 8px 26px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  border-bottom: 1px dashed var(--border);
+}
+
+.vs-list li:last-child {
+  border-bottom: none;
+}
+
+.vs-list li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.vs-traditional .vs-list li::before {
+  content: '✕';
+  color: var(--aggressive);
+}
+
+.vs-assertive .vs-list li::before {
+  content: '✓';
+  color: var(--assertive);
+}
+
+/* ========== ASERTIVA EN ADSO ========== */
+.adso-box {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 40px 48px;
+  box-shadow: 0 4px 24px var(--shadow);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--assertive);
+  margin-bottom: 48px;
+}
+
+.adso-box h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.adso-intro {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.adso-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.adso-item {
+  background: var(--bg-warm);
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 3px solid var(--accent);
+}
+
+.adso-item h4 {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.adso-item p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
 }
 
 /* ========== REFLEXIÓN BOX ========== */
@@ -741,6 +958,33 @@ body {
 
   .pillars-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bio-card {
+    grid-template-columns: 1fr;
+    padding: 28px 20px;
+  }
+
+  .bio-avatar {
+    margin: 0 auto;
+  }
+
+  .bio-content {
+    text-align: center;
+  }
+
+  .bio-facts {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .vs-comparison,
+  .adso-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .adso-box {
+    padding: 28px 20px;
   }
 
   .comparison-table .style-card:nth-child(4),
