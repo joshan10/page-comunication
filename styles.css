@@ -296,6 +296,47 @@ body {
   line-height: 1.7;
 }
 
+/* ========== PILARES DE LA COMUNICACIÓN ========== */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.pillar-card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 12px var(--shadow);
+  border-bottom: 4px solid var(--accent-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px var(--shadow-md);
+}
+
+.pillar-icon {
+  font-size: 2.4rem;
+  margin-bottom: 16px;
+}
+
+.pillar-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.pillar-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
 /* ========== JAKOBSON GRID ========== */
 .jakobson-grid {
   display: grid;
@@ -698,6 +739,10 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .comparison-table .style-card:nth-child(4),
   .comparison-table .style-card:nth-child(5) {
     grid-column: auto;
@@ -718,6 +763,10 @@ body {
 }
 
 @media (max-width: 640px) {
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+
   .nav-menu {
     display: none;
     position: absolute;

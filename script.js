@@ -44,7 +44,7 @@ window.addEventListener('scroll', () => {
 
 // ========== FADE IN ON SCROLL ==========
 const fadeElements = document.querySelectorAll(
-  '.card, .jakobson-card, .style-card, .team-card, .reflection-card, .content-card, .reflection-box, .benefits-box'
+  '.card, .pillar-card, .jakobson-card, .style-card, .team-card, .reflection-card, .content-card, .reflection-box, .benefits-box'
 );
 
 fadeElements.forEach(el => el.classList.add('fade-in'));
