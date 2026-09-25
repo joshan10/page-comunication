@@ -4,7 +4,7 @@ Sitio web creado para la materia de **Formación en Comunicaciones** — Tecnolo
 
 ## Descripción
 
-El proyecto explora el rol de la comunicación asertiva en el desempeño del tecnólogo en desarrollo de software. Se abordan temas como tipos de comunicación, funciones del lenguaje según Roman Jakobson, estilos de comunicación y su aplicación en el entorno laboral.
+El proyecto explora el rol de la comunicación asertiva en el desempeño del tecnólogo en desarrollo de software. Se abordan temas como formas de comunicación, comunicación funcional (modelos tradicional y de Roman Jakobson), funciones del lenguaje, estilos de comunicación y su aplicación en el entorno laboral.
 
 ## Integrantes
 
@@ -16,11 +16,11 @@ El proyecto explora el rol de la comunicación asertiva en el desempeño del tec
 ## Contenido del Sitio
 
 1. **¿Qué es la Comunicación?** — Definición e importancia personal y profesional.
-2. **Tipos de Comunicación** — Verbal, no verbal, escrita y visual.
-3. **Funciones del Lenguaje** — Según Roman Jakobson (referencial, emotiva, conativa, fática, metalingüística y poética).
+2. **Formas de Comunicación** — Verbal, no verbal, escrita y visual.
+3. **Funciones del Lenguaje** — Comunicación funcional: modelo tradicional (estructural) frente al modelo de Román Jakobson, sus diferencias e importancia; cada función asociada a su elemento del proceso (referencial, emotiva, conativa, fática, metalingüística y poética).
 4. **Comunicación Asertiva** — Estilos de comunicación: pasiva, agresiva, pasivo-agresiva, agresivo-pasiva y asertiva.
-5. **Reflexión del Reto** — Análisis de los tipos de comunicación.
-6. **Nuestro Equipo** — Integrantes y trabajos realizados.
+5. **El Reto** — Un reto por integrante (espacio individual para cada persona).
+6. **Nuestro Equipo** — Integrantes y evidencias presentadas (con espacios para las evidencias pendientes).
 7. **Reflexiones Finales** — Reflexión personal de cada integrante.
 
 ## Estructura del Proyecto
@@ -35,11 +35,11 @@ web-comunicacion/
 │   ├── Kinesia.docx
 │   └── FuncinApelativadelLenguaje.pdf
 └── docs-of-joshan/
-    ├── La sapa caramelo.txt
-    ├── justificacion de escenas de comunicacion.pdf
+    ├── La sapa caramelo .txt
+    ├── justificacion de escenas de comunicacion (1).pdf
     ├── comunicacion_no_verbal.docx
-    ├── Funcion_Emotiva_Lenguaje.pptx
-    └── 2EV0_TALLER_TIPOS_DE_COMUNICACION.docx
+    ├── Funcion_Emotiva_Lenguaje (1) (1).pptx
+    └── 2EV0 _ TALLER TIPOS DE COMUNICACIÓN (1).docx
 ```
 
 ## Tecnologías Utilizadas
